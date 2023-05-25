@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="600dp"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical"
+    android:background="@color/red">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#EA0E2C"
+        android:text="ACEPTO LOS TÉRMINOS Y CONDICIONES."
+        android:textSize="16sp"
+        android:fontFamily="@font/bahnschrift"
+        android:textColor="@color/white"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:background="@drawable/border">
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="3dp"
+            android:backgroundTint="#EA0E2C"
+            android:fontFamily="@font/bahnschrift"
+            android:text="CANCELAR"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/clear"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="3dp"
+            android:text="LIMPIAR"
+            android:fontFamily="@font/bahnschrift"
+            android:textColor="@color/white"
+            android:backgroundTint="#A6A6A6" />
+
+        <Button
+            android:id="@+id/getsign"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:layout_marginRight="3dp"
+            android:text="GUARDAR"
+            android:fontFamily="@font/bahnschrift"
+            android:textColor="@color/white"
+            android:backgroundTint="#7ED957" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:background="@drawable/border"
+        android:orientation="vertical" />
+
+
+</LinearLayout>
